@@ -1,0 +1,80 @@
+/* Change the general color (Both text and background and aim for a darker tone) */
+
+body {
+    height: 200vh;
+    background: linear-gradient(#ffdad5, #fff7f9);
+}
+
+.top_bar {
+    align-items: start;
+}
+
+.top_bar hr {
+    border: none;
+    width: 120px;
+    height: 5px;
+    background-color: #a363aa;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+
+.button-container {
+    position: absolute;
+    top: 7.7px;
+    right: 10px;
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+
+}
+
+.button {
+    font-family: "Outfit";
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    padding: 3px 10px;
+    background-color: #f0f0f0;
+    border-radius: 5px;
+    color: #a363aa;
+    font-weight: bold;
+    border: none;
+    width: 117px;
+    border-radius: 50px;
+    background: linear-gradient(270deg,#ff994f,#fa6d86);
+    /* Change the images color */
+}
+
+.personal-about h2 {
+    font-family: "Outfit";
+    color: #a363aa;
+    top: 2px;
+    font-size: 25px;
+}
+
+.personal-about p {
+    font-family: "Outfit";
+    color: #a363aa;
+    font-size: 18px;
+}
+
+.personal-about hr {
+    border: none;
+    height: 4px;
+    background-color: #a363aa;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+
+.personal-location p {
+    font-family: "Outfit";
+    color: #634067;
+    position: absolute;
+    top: 33.5px;
+}
+
+@media (max-width: 540) {
+    .button-container {
+        display: none;
+    }
+}

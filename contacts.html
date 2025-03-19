@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contacts</title>
+    <link rel="stylesheet" href="syles_contacts.css">
+
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Outfit:wght@100..900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+        </style>
+    
+</head>
+<body>
+    <div class="contact-container">
+        <form action="https://api.web3forms.com/submit" method="POST" class="contact-left">
+            <div class="contact-left-title">
+                <h2>Get in touch with me</h2>
+                <hr>
+            </div>
+            <input type="hidden" name="access_key" value="377ba0a3-03bf-4249-9453-1a8ed38996d6">    
+            <input type="text" name="name" placeholder="Your name" class="contact-inputs" required />
+            <input type="email" name="email" placeholder="Your Email" class="contact-inputs" required />
+            <textarea name="message" placeholder="Your  message" class="contact-inputs" required></textarea>
+            <button type="submit">Submit <img src="assets/icons8-arrow-50.png" alt=""></button>
+        </form>
+        <div class="contact-right">
+            <img src="assets/Contact.png" alt="">
+
+        </div>
+    </div>
+</body>
+</html>
