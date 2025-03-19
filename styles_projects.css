@@ -2,3 +2,32 @@ body {
     height: 150vh;
     background: linear-gradient(#ffdad5, #fff7f9);
 }
+
+.button-container {
+    position: absolute;
+    top: 7.7px;
+    left: 10px;
+    display: flex;
+    flex-direction: row;
+}
+
+.button {
+    font-family: "Outfit";
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    padding: 4px 10px;
+    background-color: #f0f0f0;
+    border-radius: 5px;
+    color: #a363aa;
+    font-weight: bold;
+    border: none;
+    width: 85px;
+    border-radius: 50px;
+    background: linear-gradient(270deg,#ff994f,#fa6d86);
+    /* Change the images color */
+}
+
+.button img {
+    width: 35px;
+}
