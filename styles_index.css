@@ -73,6 +73,11 @@ body {
     top: 33.5px;
 }
 
+.socials img{
+    color: white;
+    width: 30px;
+}
+
 @media (max-width: 540) {
     .button-container {
         display: none;
