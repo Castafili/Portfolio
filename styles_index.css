@@ -92,13 +92,13 @@ body {
 }
 
 .contact-button:hover {
-    opacity: 75%;
+    opacity: 80%;
     padding: 3px;
     transition: 155ms;
 }
 
 .project-button:hover {
-    opacity: 75%;
+    opacity: 80%;
     padding: 3px;
     transition: 155ms;
 }
