@@ -77,8 +77,30 @@ body {
     width: 35px;
 }
 
+.socials img:hover{
+    padding: 3px;
+    transition: 155ms;
+}
+
 .linkedin img{
     width: 35px;
+}
+
+.linkedin img:hover{
+    padding: 3px;
+    transition: 155ms;
+}
+
+.contact-button:hover {
+    opacity: 75%;
+    padding: 3px;
+    transition: 155ms;
+}
+
+.project-button:hover {
+    opacity: 75%;
+    padding: 3px;
+    transition: 155ms;
 }
 
 @media (max-width: 540) {
